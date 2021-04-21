@@ -1,0 +1,1298 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.product,
+header > div nav > *,
+footer div h2,
+footer p,
+footer div input,
+.popup,
+.viewmore,
+section.horsebitArea div:first-of-type > a,
+section.ggMarmontArea ul li h3,
+section.ggMarmontArea h2,
+section.dionysusArea h2,
+.wrapper section h3,
+.wrapper > section div.hbBanner div p span,
+.wrapper div.opBanner div p,
+.wrapper.detail > *,
+.signIn div > *,
+.signUp div > *,
+input,
+label,
+textarea,
+select{
+    font-family: 'Mukta', sans-serif;
+}
+header > div input[type='checkbox']{
+    display: none;
+}
+input,
+select,
+textarea{
+    outline: none;
+}
+.popup{
+    display: none;
+}
+section.notitle h2:first-of-type{
+    display: none;
+}
+.viewmore:active,
+.contact div:nth-of-type(2) form fieldset > input:last-of-type:active{
+    opacity: 0.6;
+}
+@media screen and (max-width: 767px){
+    .popup{
+        padding: 30px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        z-index: 10000;
+        box-sizing: border-box;
+        width: 100%;
+        max-width:767px;
+        position: absolute; top: 70px;
+    }
+    .popup > a:first-of-type{
+        display: inline-block;
+        text-align: right;
+        width: 10%;
+    }
+    .popup h2{
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 88%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .search input[type='search']{
+        font-size: 10px;
+        font-weight: 400;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding: 10px 0 10px 58px;
+        background: url('../images/btn_search_small.png') no-repeat;
+        background-position: 20px;
+        margin-bottom: 30px;
+        outline: none;
+    }
+    .popup input.viewmore{
+        float: right;
+    }
+    input.viewmore::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    .shopping{
+        height: 100%;
+    }
+    .shopping ul{
+        margin-bottom: 50px;
+    }
+    .shopping ul li{
+        display: inline-block;
+        width: 100%;
+    }
+    .shopping ul li figure{
+        border-bottom: 1px solid #cccccc;
+    }
+    .shopping ul li figure img{
+        display: inline-block;
+        max-width: 40px;
+        width: 20%;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+    .shopping ul li figure figcaption{
+        display: inline-block;
+        line-height: 80px;
+        width: 80%;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 10px;
+        opacity: 0.5;
+    }
+    .shopping ul li figure figcaption dl dt,
+    .shopping ul li figure figcaption dl dd{
+        display: inline-block;
+    }
+    .shopping ul li figure figcaption dl dt{
+        width: 70%;
+    }
+    .shopping ul li figure figcaption dl dd{
+        width: 20%;
+    }
+    .shopping div{
+        margin-bottom: 30px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .shopping div span:last-of-type{
+        float: right;
+    }
+    /* header popup fin */
+    .productDetail ul li{
+        margin-bottom: 10px;
+    }
+    .shipping ul li,
+    .contact > div{
+        margin-bottom: 30px;
+    }
+    .shipping ul li h3,
+    .contact > div h3{
+        margin-bottom: 10px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .shipping ul li p,
+    .productDetail ul li,
+    .contact > div p{
+        font-size: 10px;
+        font-weight: 400;
+        opacity: 0.6;
+    }
+    .shipping img{
+        display: block;
+        width: 100%;
+        max-width: 200px;
+    }
+    .shipping img:first-of-type{
+        margin-bottom: 30px;
+    }
+    .contact > div p,
+    .contact > div:nth-of-type(2) form fieldset div label,
+    .contact > div:nth-of-type(2) form fieldset div,
+    .contact > div:nth-of-type(2) form fieldset label,
+    .contact > div:nth-of-type(2) form fieldset textarea{
+        margin-bottom: 10px;
+    }
+    .contact > div a,
+    .contact > div:nth-of-type(2) form fieldset label{
+        display: block;
+        font-size: 10px;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+    .contact div:nth-of-type(2) form fieldset{
+        padding: 30px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #cccccc;
+    }
+    .contact div:nth-of-type(2) form fieldset > div{
+        box-sizing: border-box;
+        width: 100%;
+        display: block;
+    }
+    .contact div:nth-of-type(2) form fieldset div input,
+    .contact div:nth-of-type(2) form fieldset div select{
+        width: 100%;
+        max-width: 450px;
+        padding: 5px;
+        box-sizing: border-box;
+        border: 1px solid #cccccc;
+        font-size: 10px;
+    }
+    .contact div:nth-of-type(2) form fieldset div select{
+        color: #999999;
+    }
+    .contact div:nth-of-type(2) form fieldset textarea{
+        width: 100%;
+        display: block;
+        height: 100px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        resize: none;
+        padding: 5px;
+        border: 1px solid #cccccc;
+        font-size: 10px;
+    }
+    .contact div:nth-of-type(2) form fieldset input[type='submit']{
+        display: block;
+        margin: 0 auto;
+        max-width: 188px;
+    }
+    /* popup fin */
+    ul.product li figure figcaption dl dt{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    ul.product li figure figcaption dl dd:first-of-type{
+        font-weight: 400;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+    ul.product li figure figcaption dl dd:nth-of-type(2){
+        font-size: 12px;
+        font-weight: 200;
+        opacity: 0.6;
+    }
+    .title dl dt,
+    .title h2,
+    .title h3,
+    .title h4{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .title dl dd,
+    .title p,
+    .title a{
+        font-family: 'Mukta', sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .viewmore,
+    .contact div:nth-of-type(2) form fieldset > input:last-of-type{
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+        background-color: black;
+        line-height: 30px;
+        padding: 0 20px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }
+    /* header */
+    header > div,
+    footer,
+    .slider figure img,
+    section.ggMarmontArea,
+    section.dionysusArea{
+        max-width: 760px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        position: fixed;
+        width: 100%; 
+        z-index: 10000;
+        background-color: #ffffff;
+    }
+    header > div:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div{ 
+        line-height: 70px;
+        max-width: 760px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    header > div > label{
+        max-width: 30px;
+        width: 15%;
+        display: block;
+        text-indent: -9999px;
+        box-sizing: border-box;
+        display: block;
+        background: url('../images/menu.png') no-repeat center;
+        background-size: 80%;
+        position: absolute; left: 0px; top: 0;
+    }
+    header > div h1{
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    header > div h1 a,
+    header > div nav ul > li a,
+    header > div nav ol > li a{
+        display: block;
+    }
+    header > div h1 a{
+        max-width: 100px;
+        width: 100%;
+        text-indent: -9999px;
+        background: url('../images/logo.png') no-repeat center;
+        background-size: 100%;
+        margin: 0 auto;
+    }
+    /* nav */
+    header > div nav.active{
+        display: block;
+    }
+    header > div nav{
+        display: none;
+    }
+    header > div nav{
+        width: 100%;
+        height: 100%;
+        position: absolute; 
+    }
+    header > div nav ul{
+        list-style: none;
+        background-color: #ffffff;
+    }
+    header > div nav ul > li > a{
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+        padding: 0 20px;
+    }
+    header > div nav ul > li > a:after{
+        content: url('../images/btn_send_02.png');
+        float: right;
+        transform: rotate(0deg);
+        transition: transform 0.5s ease-out;
+    }
+    header > div nav ul > li:hover > a.active:after{
+        transform: rotate(90deg);
+    }
+    header > div nav ul > li > a:hover{
+        opacity: 0.6;
+    }
+    header > div nav ul li ol.active{
+        display: block;
+    }
+    header > div nav ul li ol{
+        display: none;
+    }
+    header > div nav ul li ol li{
+        display: none;
+        padding: 0 20px;
+        background-color: #e5e5e5;
+    }
+    header > div nav ul li ol li a{
+        font-size: 12px;
+        opacity: 0.6;
+        display: block;
+    }
+    header > div nav ul li ol li:hover a{
+        opacity: 0.3;
+    }
+    header > div nav ul li:hover ol{
+        background-color: #ffffff;
+    }
+    header > div nav ul li:hover ol li{
+        display: block;
+    }
+    /* nav fin */
+    header > div span::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div span{
+        width: 30%;
+        position: absolute; right: 0; top: 0;
+    }
+    header > div span a{
+        display: block;
+        float: left;
+        width: 33%;
+        max-width: 24px;
+        text-indent: -9999px;
+        box-sizing: border-box;
+    }
+    header > div span a:first-of-type{
+        background: url('../images/btn_search_02.png') no-repeat center;
+    }
+    header > div span a:nth-of-type(2){
+        background: url('../images/btn_signin_02.png') no-repeat center;
+    }
+    header > div span a:nth-of-type(3){
+        background: url('../images/btn_cart_02.png') no-repeat center;
+    }
+    header > div span a:not(:first-child){
+        margin-left: 7%;
+    }
+    /* header fin */
+    footer{
+        font-weight: 400;
+        padding: 70px 30px;
+        box-sizing: border-box;
+    }
+    footer div{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    footer div:nth-of-type(2){
+        display: none;
+    }
+    footer div h2{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    footer > div > p,
+    footer > div > input{
+        font-size: 10px;
+    }
+    footer div h2,
+    footer div:first-child p{
+        margin-bottom: 20px;
+    }
+    footer div ul li:not(:first-of-type){
+        max-width: 42px;
+        width: 70%;
+    }
+    footer div ul li:first-of-type{
+        width: 100%;
+        max-width: 16px;
+    }
+    footer div ul li{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    footer div ul li a{
+        display: block;
+    }
+    footer div ul li:first-of-type a{
+        background: url('../images/ico_sns_01.png') no-repeat center;
+        background-size: 50%;
+    }
+    footer div ul li:nth-of-type(2){
+        background: url('../images/ico_sns_02.png') no-repeat center;
+        background-size: 50%;
+    }
+    footer div ul li:nth-of-type(3){
+        background: url('../images/ico_sns_03.png') no-repeat center;
+        background-size: 50%;
+    }
+    footer div ul li a img{
+        opacity: 0;
+    }
+    footer div input{
+        line-height: 20px;
+        border: 1px solid #999999;
+        padding: 0 5px;
+        opacity: 0.4;
+        width: 100%;
+        background: url('../images/btn_send_02.png') no-repeat right 6% center;
+    }
+    footer div input[type='email']{
+        box-sizing: border-box;
+    }
+    footer > p{
+        float: right;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+    footer::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .popup{
+        padding: 30px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        z-index: 10000;
+        position: fixed; 
+    }
+    .popup > a:first-of-type{
+        display: inline-block;
+        text-align: right;
+        width: 10%;
+    }
+    .search,
+    .shopping{
+        width: 50%;
+        right: 0; top: 71px;
+        box-sizing: border-box;
+    }
+    .popup h2{
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 88%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .search input[type='search']{
+        font-size: 10px;
+        font-weight: 400;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding: 10px 0 10px 58px;
+        background: url('../images/btn_search_small.png') no-repeat;
+        background-position: 20px;
+        margin-bottom: 30px;
+    }
+    .popup input.viewmore{
+        float: right;
+    }
+    input.viewmore::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    .shopping{
+        height: 100%;
+    }
+    .shopping ul{
+        margin-bottom: 50px;
+    }
+    .shopping ul li{
+        display: inline-block;
+        width: 100%;
+    }
+    .shopping ul li figure{
+        border-bottom: 1px solid #cccccc;
+    }
+    .shopping ul li figure img{
+        display: inline-block;
+        max-width: 53px;
+        width: 20%;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+    .shopping ul li figure figcaption{
+        display: inline-block;
+        line-height: 80px;
+        width: 80%;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 12px;
+        opacity: 0.5;
+    }
+    .shopping ul li figure figcaption dl dt,
+    .shopping ul li figure figcaption dl dd{
+        display: inline-block;
+    }
+    .shopping ul li figure figcaption dl dt{
+        width: 70%;
+    }
+    .shopping ul li figure figcaption dl dd{
+        width: 20%;
+    }
+    .shopping div{
+        margin-bottom: 30px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .shopping div span:last-of-type{
+        float: right;
+    }
+    /* header popup fin */
+    .contact,.shipping,.productDetail{
+        left:10%; top: 71px; 
+        width: 80%;
+        box-sizing: border-box;
+    }
+    .productDetail ul li{
+        margin-bottom: 10px;
+    }
+    .shipping ul li,
+    .contact > div{
+        margin-bottom: 30px;
+    }
+    .shipping ul li h3,
+    .contact > div h3{
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .shipping ul li p,
+    .productDetail ul li,
+    .contact > div p{
+        font-size: 12px;
+        font-weight: 400;
+        opacity: 0.6;
+    }
+    .shipping img{
+        display: inline-block;
+        box-sizing: border-box;
+        max-width: 200px;
+        width: 100%;
+    }
+    .shipping img:not(:first-of-type){
+        margin-left: 30px;
+    }
+    .contact > div p,
+    .contact > div:nth-of-type(2) form fieldset div label,
+    .contact > div:nth-of-type(2) form fieldset div,
+    .contact > div:nth-of-type(2) form fieldset label,
+    .contact > div:nth-of-type(2) form fieldset textarea{
+        margin-bottom: 10px;
+    }
+    .contact > div a,
+    .contact > div:nth-of-type(2) form fieldset label{
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+    .contact div:nth-of-type(2) form fieldset{
+        padding: 30px;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 1160px;
+        border: 1px solid #cccccc;
+    }
+    .contact div:nth-of-type(2) form fieldset > div{
+        display: inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 44%;
+    }
+    .contact div:nth-of-type(2) form fieldset > div > *{
+        display: block;
+    }
+    .contact div:nth-of-type(2) form fieldset div:not(:first-of-type){
+        margin-left: 11%;
+    }
+    .contact div:nth-of-type(2) form fieldset div input,
+    .contact div:nth-of-type(2) form fieldset div select{
+        width: 100%;
+        max-width: 450px;
+        padding: 5px;
+        box-sizing: border-box;
+        border: 1px solid #cccccc;
+        font-size: 10px;
+    }
+    .contact div:nth-of-type(2) form fieldset div select{
+        color: #999999;
+    }
+    .contact div:nth-of-type(2) form fieldset textarea{
+        width: 100%;
+        max-width: 1100px;
+        display: block;
+        height: 100px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        resize: none;
+        padding: 5px;
+        border: 1px solid #cccccc;
+        font-size: 10px;
+    }
+    .contact div:nth-of-type(2) form fieldset input[type='submit']{
+        display: block;
+        margin: 0 auto;
+        max-width: 188px;
+    }
+    /* popup fin */
+    ul.product li figure figcaption dl dt{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    ul.product li figure figcaption dl dd:first-of-type{
+        font-weight: 400;
+        font-size: 14px;
+        opacity: 0.6;
+    }
+    ul.product li figure figcaption dl dd:nth-of-type(2){
+        font-size: 14px;
+        font-weight: 200;
+        opacity: 0.6;
+    }
+    .title dl dt,
+    .title h2,
+    .title h3,
+    .title h4,
+    .hbTitle h2 a{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .title dl dd,
+    .title p,
+    .title > a{
+        font-family: 'Mukta', sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .viewmore,
+    .contact div:nth-of-type(2) form fieldset > input:last-of-type{
+        font-size: 14px;
+        font-weight: 400;
+        color: white;
+        background-color: black;
+        line-height: 30px;
+        padding: 0 20px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }
+    /* header */
+    header > div,
+    footer,
+    section.ggMarmontArea,
+    section.dionysusArea{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        border-bottom: 1px solid #000000;
+        position: fixed;
+        width: 100%; 
+        z-index: 10000;
+        background-color: #ffffff;
+    }
+    header > div:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div > *{
+        float: left; line-height: 70px;
+    }
+    header > div > label{
+        display: none;
+    }
+    header > div h1{ 
+        width: 20%;
+    }
+    header > div h1 a,
+    header > div nav ul > li a,
+    header > div nav ol > li a{
+        display: block;
+    }
+    header > div h1 a{
+        text-indent: -9999px;
+        background: url('../images/logo.png') no-repeat center;
+        background-size: 100%;
+        max-width: 200px;
+    }
+    header > div nav{
+        width: 60%;
+    }
+    header > div nav ul{
+        text-align: right;
+        list-style: none;
+    }
+    header > div nav ul > li{
+        display: inline-block;
+    }
+    header > div nav ul > li:not(:first-child){
+        margin-left: 3%;
+    }
+    header > div nav ul > li > a{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    header > div nav ul > li:hover > a{
+        opacity: 0.6;
+    }
+    header > div nav ul li ol li{
+        display: none;
+    }
+    header > div nav ul li ol li a{
+        font-size: 10px;
+        opacity: 0.6;
+        display: block;
+    }
+    header > div nav ul li ol li:hover a{
+        opacity: 0.3;
+    }
+    header > div nav ul li:hover ol{
+        position: absolute; left: 0; top: 70px;
+        width: 100%;
+        border-top: 1px solid #000000;
+        text-align: left;
+        background-color: #ffffff;
+    }
+    header > div nav ul li:hover ol li:first-of-type{
+        padding-left: 8%;
+    }
+    header > div nav ul li:hover ol li{
+        display: inline-block;
+    }
+    header > div nav ul li:hover ol li:not(:first-of-type){
+        margin-left: 3%;
+    }
+    header > div span::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div span{
+        width: 15%;
+        margin-left: 5%;
+        box-sizing: border-box;
+    }
+    header > div span a{
+        display: block;
+        float: left;
+        max-width: 24px;
+        width: 100%;
+        text-indent: -9999px;
+        box-sizing: border-box;
+    }
+    header > div span a:first-of-type{
+        background: url('../images/btn_search_02.png') no-repeat center;
+    }
+    header > div span a:nth-of-type(2){
+        background: url('../images/btn_signin_02.png') no-repeat center;
+    }
+    header > div span a:nth-of-type(3){
+        background: url('../images/btn_cart_02.png') no-repeat center;
+    }
+    header > div span a:not(:first-child){
+        margin-left: 17%;
+    }
+    /* header fin */
+    footer{
+        font-weight: 400;
+        padding: 70px 50px;
+        box-sizing: border-box;
+    }
+    footer div{
+        float: left;
+        width: 30%;
+    }
+    footer div:not(:first-of-type){
+        margin-left: 3%;
+    }
+    footer div h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    footer > div > p,
+    footer > div > input,
+    footer > div > span input{
+        font-size: 10px;
+    }
+    footer div h2,
+    footer div:first-child p{
+        margin-bottom: 20px;
+    }
+    footer div ul li:not(:first-of-type){
+        max-width: 42px;
+        width: 70%;
+    }
+    footer div ul li:first-of-type{
+        width: 100%;
+        max-width: 16px;
+    }
+    footer div ul li{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    footer div ul li a{
+        display: block;
+    }
+    footer div ul li:first-of-type a{
+        background: url('../images/ico_sns_01.png') no-repeat center;
+        background-size: 50%;
+    }
+    footer div ul li:nth-of-type(2){
+        background: url('../images/ico_sns_02.png') no-repeat center;
+        background-size: 50%;
+    }
+    footer div ul li:nth-of-type(3){
+        background: url('../images/ico_sns_03.png') no-repeat center;
+        background-size: 50%;
+    }
+    footer div ul li a img{
+        opacity: 0;
+    }
+    footer div input{
+        line-height: 20px;
+        border: 1px solid #999999;
+        padding: 0 5px;
+        opacity: 0.4;
+        width: 100%;
+        background: url('../images/btn_send_02.png') no-repeat right 6% center;
+    }
+    footer div input[type='email']{
+        box-sizing: border-box;
+    }
+    footer > p{
+        float: right;
+        font-size: 14px;
+        opacity: 0.6;
+        margin-top: 40px;
+    }
+    footer::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+}
+@media screen and (min-width: 1280px){
+    .popup{
+        padding: 50px;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        z-index: 10000;
+        position: fixed; 
+    }
+    .popup > a:first-of-type{
+        display: inline-block;
+        text-align: right;
+        width: 10%;
+    }
+    .search,
+    .shopping{
+        width: 37%;
+        right: 0; top: 101px;
+    }
+    .popup h2{
+        margin-bottom: 100px;
+        display: inline-block;
+        width: 89%;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .search input[type='search']{
+        font-size: 14px;
+        font-weight: 400;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding: 10px 0 10px 58px;
+        background: url('../images/btn_search_small.png') no-repeat;
+        background-position: 20px;
+        margin-bottom: 50px;
+        outline: none;
+    }
+    .popup input.viewmore{
+        float: right;
+    }
+    input.viewmore::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    .shopping{
+        height: 100%;
+    }
+    .shopping ul{
+        margin-bottom: 50px;
+    }
+    .shopping ul li{
+        display: inline-block;
+        width: 100%;
+    }
+    .shopping ul li figure{
+        border-bottom: 1px solid #cccccc;
+    }
+    .shopping ul li figure img{
+        display: inline-block;
+        max-width: 89px;
+        vertical-align: middle;
+    }
+    .shopping ul li figure figcaption{
+        display: inline-block;
+        line-height: 120px;
+        width: 80%;
+        text-align: center;
+        font-size: 18px;
+        opacity: 0.5;
+    }
+    .shopping ul li figure figcaption dl dt,
+    .shopping ul li figure figcaption dl dd{
+        display: inline-block;
+    }
+    .shopping ul li figure figcaption dl dt{
+        width: 70%;
+    }
+    .shopping ul li figure figcaption dl dd{
+        width: 20%;
+    }
+    .shopping div{
+        margin-bottom: 50px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .shopping div span:last-of-type{
+        float: right;
+    }
+    /* header popup fin */
+    .contact,.shipping,.productDetail{
+        left:10%; top: 101px; 
+        max-width: 1600px;
+        width: 80%;
+        box-sizing: border-box;
+    }
+    .productDetail ul li{
+        margin-bottom: 20px;
+    }
+    .shipping ul li,
+    .contact > div{
+        margin-bottom: 50px;
+    }
+    .shipping ul li h3,
+    .contact > div h3{
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .shipping ul li p,
+    .productDetail ul li,
+    .contact > div p{
+        font-size: 18px;
+        font-weight: 400;
+        opacity: 0.6;
+    }
+    .shipping img{
+        display: inline-block;
+        box-sizing: border-box;
+        max-width: 264px;
+        width: 100%;
+    }
+    .shipping img:not(:first-of-type){
+        margin-left: 50px;
+    }
+    .contact > div p,
+    .contact > div:nth-of-type(2) form fieldset div label,
+    .contact > div:nth-of-type(2) form fieldset div,
+    .contact > div:nth-of-type(2) form fieldset label,
+    .contact > div:nth-of-type(2) form fieldset textarea{
+        margin-bottom: 20px;
+    }
+    .contact > div a,
+    .contact > div:nth-of-type(2) form fieldset label{
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+    .contact div:nth-of-type(2) form fieldset{
+        padding: 30px;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 1160px;
+        border: 1px solid #cccccc;
+    }
+    .contact div:nth-of-type(2) form fieldset > div{
+        display: inline-block;
+        vertical-align: middle;
+        box-sizing: border-box;
+        width: 44%;
+    }
+    .contact div:nth-of-type(2) form fieldset > div > *{
+        display: block;
+    }
+    .contact div:nth-of-type(2) form fieldset div:not(:first-of-type){
+        margin-left: 11%;
+    }
+    .contact div:nth-of-type(2) form fieldset div input,
+    .contact div:nth-of-type(2) form fieldset div select{
+        width: 100%;
+        max-width: 450px;
+        padding: 5px;
+        box-sizing: border-box;
+        border: 1px solid #cccccc;
+        font-size: 14px;
+    }
+    .contact div:nth-of-type(2) form fieldset div select{
+        color: #999999;
+    }
+    .contact div:nth-of-type(2) form fieldset textarea{
+        width: 100%;
+        max-width: 1100px;
+        display: block;
+        height: 200px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        resize: none;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        font-size: 14px;
+    }
+    .contact div:nth-of-type(2) form fieldset input[type='submit']{
+        display: block;
+        margin: 0 auto;
+        max-width: 188px;
+    }
+    /* popup fin */
+    ul.product li figure figcaption dl dt{
+        font-size: 24px;
+        font-weight: 400;
+    }
+    ul.product li figure figcaption dl dd:first-of-type{
+        font-weight: 400;
+        font-size: 20px;
+        opacity: 0.6;
+    }
+    ul.product li figure figcaption dl dd:nth-of-type(2){
+        font-size: 20px;
+        font-weight: 200;
+        opacity: 0.6;
+    }
+    .title dl dt,
+    .title h2,
+    .title h3,
+    .title h4{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .title dl dd,
+    .title p,
+    .title > a{
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .viewmore,
+    .contact div:nth-of-type(2) form fieldset > input:last-of-type{
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        background-color: black;
+        line-height: 40px;
+        padding: 0 30px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }
+    /* header */
+    header > div,
+    footer,
+    .slider figure img,
+    section.ggMarmontArea,
+    section.dionysusArea{
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        border-bottom: 1px solid #000000;
+        position: fixed;
+        width: 100%; 
+        z-index: 10000;
+        background-color: #ffffff;
+    }
+    header > div:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div > *{
+        float: left; line-height: 100px;
+    }
+    header > div > label{
+        display: none;
+    }
+    header > div h1{
+        width: 18.75%;
+    }
+    header > div h1 a,
+    header > div nav ul > li a,
+    header > div nav ol > li a{
+        display: block;
+    }
+    header > div h1 a{
+        text-indent: -9999px;
+        max-width: 300px; 
+        background: url('../images/logo.png') no-repeat center;
+        background-size: 100%;
+    }
+    header > div nav{
+        width: 64%;
+    }
+    header > div nav ul{
+        text-align: right;
+        list-style: none;
+    }
+    header > div nav ul > li{
+        display: inline-block;
+    }
+    header > div nav ul > li:not(:first-child){
+        margin-left: 3%;
+    }
+    header > div nav ul > li > a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    header > div nav ul > li:hover > a{
+        opacity: 0.6;
+    }
+    header > div nav ul li ol li{
+        display: none;
+    }
+    header > div nav ul li ol li a{
+        font-size: 14px;
+        opacity: 0.6;
+        display: block;
+    }
+    header > div nav ul li ol li:hover a{
+        opacity: 0.3;
+    }
+    header > div nav ul li:hover ol{
+        position: absolute; left: 0; top: 100px;
+        width: 100%;
+        border-top: 1px solid #000000;
+        text-align: left;
+        background-color: #ffffff;
+    }
+    header > div nav ul li:hover ol li:first-of-type{
+        padding-left: 8%;
+    }
+    header > div nav ul li:hover ol li{
+        display: inline-block;
+    }
+    header > div nav ul li:hover ol li:not(:first-of-type){
+        margin-left: 3%;
+    }
+    header > div span{
+        width: 11.25%;
+        max-width: 180px;
+        margin-left: 6%;
+    }
+    header > div span a::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    header > div span a{
+        float: left;
+        display: block;
+        max-width: 36px;
+        width: 20%;
+        text-indent: -9999px;
+    }
+    header > div span a:first-of-type{
+        background: url('../images/btn_search.png') no-repeat center;
+    }
+    header > div span a:nth-of-type(2){
+        background: url('../images/btn_signin.png') no-repeat center;
+    }
+    header > div span a:nth-of-type(3){
+        background: url('../images/btn_cart.png') no-repeat center;
+    }
+    header > div span a:not(:first-child){
+        margin-left: 15%;
+    }
+    /* header fin */
+    footer{
+        padding: 100px 0;
+        font-weight: 400;
+    }
+    footer div{
+        float: left;
+        width: 30%;
+    }
+    footer div:not(:first-of-type){
+        margin-left: 3%;
+    }
+    footer div h2{
+        font-size: 24px;
+    }
+    footer > div > p,
+    footer > div > input,
+    footer > div span input{
+        font-size: 14px;
+    }
+    footer > div > p{
+        line-height: 16px;
+    }
+    footer div h2,
+    footer div:first-child p{
+        margin-bottom: 40px;
+    }
+    footer div:nth-of-type(3){
+        margin-bottom: 126px;
+    }
+    footer div ul li{
+        display: inline-block;
+        max-width: 42px;
+        width: 100%;
+        margin-left: 4.1%;
+    }
+    footer div input{
+        line-height: 40px;
+        border: 1px solid #999999;
+        padding: 0 6%;
+        opacity: 0.4;
+        width: 100%;
+        background: url('../images/btn_send.png') no-repeat right 6% center;
+    }
+    footer div input[type='email']{
+        box-sizing: border-box;
+    }
+    footer > p{
+        float: right;
+        font-size: 18px;
+        float: right;
+        font-size: 18px;
+        opacity: 0.6;
+        margin-top: 40px;
+    }
+    footer::after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+}
