@@ -252,8 +252,8 @@ section.notitle h2:first-of-type{
         font-weight: 400;
         color: white;
         background-color: black;
-        line-height: 30px;
-        padding: 0 20px;
+        padding: 5px 20px;
+        border-radius: 0;
         cursor: pointer;
         outline: none;
         border: none;
