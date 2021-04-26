@@ -220,7 +220,7 @@
     }
     /* dionysus fin */
     /* subpage */
-    .wrapper > section:not(section:first-child),
+    .wrapper > section:not(section.subMain),
     .wrapper div.indexBanner{
         padding: 70px 0;
     }
@@ -994,7 +994,7 @@
     }
     /* dionysus fin */
     /* subpage */
-    .wrapper > section:not(section:first-child),
+    .wrapper > section:not(section.subMain),
     .wrapper div.indexBanner{
         padding: 70px 50px;
     }
@@ -1428,8 +1428,10 @@
         margin-bottom: 30px;
         background-color: black;
         color: #ffffff;
-        line-height: 50px;
+        padding: 15px 0;
+        /* line-height: 50px; */
         width: 100%;
+        border-radius: 0;
         text-align: center;
         border: none;
         max-width: 420px;
@@ -1844,7 +1846,7 @@
     }
     /* dionysus fin */
     /* subpage */
-    .wrapper > section:not(section:first-child),
+    .wrapper > section:not(section.subMain),
     .wrapper div.indexBanner{
         padding: 100px 50px;
     }
